@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'conti-blue': '#1B53A0',
+        'text-conti': '#dddddd'
       },
     },
   },
