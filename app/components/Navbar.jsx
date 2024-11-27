@@ -32,7 +32,7 @@ export default function Navbar({ onHeightChange }) {
   return (
     <nav
       ref={navbarRef}
-      className="w-full flex flex-col lg:flex-row items-center justify-center bg-white px-3 py-4 lg:fixed top-0 left-0 right-0 z-50"
+      className="w-full flex flex-col lg:flex-row items-center bg-white px-3 py-4 lg:fixed top-0 left-0 right-0 z-50"
     >
       <div className="flex items-center justify-center w-full lg:w-auto">
         <div className="flex items-center flex-shrink-0 text-black ml-4">
