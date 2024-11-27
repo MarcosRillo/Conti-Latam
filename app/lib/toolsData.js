@@ -1,7 +1,7 @@
 import {
   ConnectWithoutContactOutlined as ConnectWithoutContactOutlinedIcon,
   Web as WebIcon,
-  Cloud as CloudIcon,
+  AccountTreeOutlined as AccountTreeOutlinedIcon,
   WorkOutlineOutlined as WorkOutlineOutlinedIcon,
   People as PeopleIcon,
   AssignmentIndOutlined as AssignmentIndOutlinedIcon,
@@ -42,7 +42,7 @@ export const tools = [
     link: "/herramientas/tool3",
   },
   {
-    icon: <CloudIcon sx={{ fontSize: 70 }} />,
+    icon: <AccountTreeOutlinedIcon sx={{ fontSize: 70 }} />,
     title: "ADMINISTRADOR DE TEMAS LIBRES",
     description: (
       <>

@@ -18,7 +18,7 @@ export default function Footer() {
           <h3 className="text-2xl font-bold mb-4">NAVEGACIÓN</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="#hero-section" className="hover:underline">
+              <Link href="#hero-section" className="hover:text-text-conti">
                 Inicio
               </Link>
             </li>

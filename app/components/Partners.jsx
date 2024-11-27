@@ -51,7 +51,7 @@ export default function PartnersSection() {
   return (
     <section
       id="partners-section"
-      className="bg-conti-blue text-white p-8 py-36 md:p-16"
+      className="bg-conti-blue text-white p-8 py-44"
     >
       <h2 className={`${montserrat.className} text-5xl md:text-5xl font-bold text-center mb-24 pb-6`}>
         NUESTROS PARTNERS
