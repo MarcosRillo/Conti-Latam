@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { tools } from "@/app/lib/toolsData";
-import { montserrat, openSans } from "@/app/ui/fonts";
+import { openSans } from "@/app/ui/fonts";
 
 export default function ToolsSection({ openModal }) {
   return (

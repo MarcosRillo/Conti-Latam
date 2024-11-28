@@ -9,7 +9,7 @@ import ToolsSection from "../app/components/Tools";
 import WhyDifferent from "../app/components/WhyDifferent";
 import ClientsCarousel from "../app/components/ClientsCarousel";
 import Partners from "../app/components/Partners";
-import Footer from "../app/components/Footer";
+import Footer from "@/app/components/footer/Footer";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,7 +36,7 @@ export default function Home() {
       <WhyDifferent />
       <ClientsCarousel />
       <Partners />
-      <Footer />
+      <Footer openModal={openModal} />
       <Modal isOpen={isModalOpen} onClose={closeModal} />
     </>
   );

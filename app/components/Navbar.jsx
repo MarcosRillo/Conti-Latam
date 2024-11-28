@@ -36,6 +36,7 @@ export default function Navbar({ onHeightChange }) {
     >
       <div className="flex items-center justify-center w-full lg:w-auto">
         <div className="flex items-center flex-shrink-0 text-black ml-4">
+          <Link href="/">
           <Image
             className=""
             src="/logo/LogoCONTi_30-.png"
@@ -43,7 +44,8 @@ export default function Navbar({ onHeightChange }) {
             width={130}
             height={50}
             priority
-          />
+            />
+            </Link>
         </div>
         <div className="block lg:hidden mr-4">
           <button
