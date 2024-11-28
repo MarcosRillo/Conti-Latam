@@ -28,14 +28,6 @@ const clients = [
   "/images/confia/santander.png",
 ];
 
-const Arrow = ({ className, style, onClick, direction }) => (
-  <div
-    className={`${className} ${direction === "prev" ? "slick-prev" : "slick-next"}`}
-    style={{ ...style, display: "block", color: "gray", fontSize: "24px" }}
-    onClick={onClick}
-  />
-);
-
 export default function ClientsCarousel() {
   const settings = {
     dots: false,
@@ -45,13 +37,11 @@ export default function ClientsCarousel() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: <Arrow direction="prev" />,
-    nextArrow: <Arrow direction="next" />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
         },
       },
       {
@@ -63,7 +53,7 @@ export default function ClientsCarousel() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],

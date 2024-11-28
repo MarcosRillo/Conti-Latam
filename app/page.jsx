@@ -1,14 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Navbar from "../app/components/Navbar";
-import HeroSection from "../app/components/HeroSection";
-import WhatWeDo from "../app/components/WhatWeDo";
-import Modal from "../app/components/Modal";
-import ToolsSection from "../app/components/Tools";
-import WhyDifferent from "../app/components/WhyDifferent";
-import ClientsCarousel from "../app/components/ClientsCarousel";
-import Partners from "../app/components/Partners";
+import Navbar from "@/app/components/Navbar";
+import HeroSection from "@/app/components/HeroSection";
+import WhatWeDo from "@/app/components/WhatWeDo";
+import Modal from "@/app/components/Modal";
+import ToolsSection from "@/app/components/Tools";
+import WhyDifferent from "@/app/components/WhyDifferent";
+import ClientsCarousel from "@/app/components/ClientsCarousel";
+import Partners from "@/app/components/Partners";
 import Footer from "@/app/components/footer/Footer";
 
 export default function Home() {
