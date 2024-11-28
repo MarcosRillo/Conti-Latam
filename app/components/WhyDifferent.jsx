@@ -8,28 +8,28 @@ export default function WhyDifferentSection() {
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <div
           id="1"
-          className="grid grid-cols-3 sm:gap-6 lg:gap-0 md:min-h-96 md:relative md:mb-52"
+          className="grid grid-cols-3 md:grid-cols-1 md:gap-20 md:mt-32 lg:grid-cols-3 sm:gap-6 lg:gap-0 md:min-h-96 lg:relative md:mb-52"
         >
           <Image
             src="/images/photo1.jpg"
             alt="Photo 1"
             width={200}
             height={150}
-            className="rounded-sm shadow-md animate-float-1 md:absolute md:top-2 md:-left-2.5 md:z-10 md:w-72 md:h-72" 
+            className="rounded-sm shadow-md animate-float-1 lg:absolute lg:top-2 lg:-left-2.5 lg:z-10 md:w-72 md:h-72" 
           />
           <Image
             src="/images/photo2.jpg"
             alt="Photo 2"
             width={200}
             height={150}
-            className="rounded-sm shadow-md animate-float-2 md:absolute md:top-1/3 md:left-1/4 md:z-20 md:w-80 md:h-80"
+            className="rounded-sm shadow-md animate-float-2 lg:absolute lg:top-1/3 lg:left-1/4 lg:z-20 md:w-80 md:h-80"
           />
           <Image
             src="/images/photo3.jpg"
             alt="Photo 3"
             width={200}
             height={150}
-            className="rounded-sm shadow-md animate-float-3 md:absolute md:top-3/4 md:right-0 md:z-10 md:w-72 md:h-72"
+            className="rounded-sm shadow-md animate-float-3 lg:absolute lg:top-3/4 lg:right-0 lg:z-10 md:w-72 md:h-72"
           />
         </div>
       </div>

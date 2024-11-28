@@ -16,7 +16,7 @@ export function FooterLogo({openModal}) {
           </Link>
           <button
             onClick={openModal}
-            className="px-4 py-2 border-2 border-transparent rounded-lg text-sm font-medium text-conti-blue bg-white hover:bg-conti-blue hover:border-white hover:text-white lg:hidden"
+            className="px-4 py-2 border-2 mt-7 border-transparent rounded-lg text-sm font-medium text-conti-blue bg-white hover:bg-conti-blue hover:border-white hover:text-white lg:hidden"
           >
             Contactanos
           </button>

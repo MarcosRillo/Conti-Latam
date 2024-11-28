@@ -34,7 +34,7 @@ export default function ToolsSection({ openModal }) {
     </div>
     <button
       onClick={openModal}
-      className="mt-16 px-6 py-3 border-4 lg:px-12 lg:py-6 border-white rounded-full text-sm lg:text-lg font-bold text-conti-blue bg-white hover:bg-conti-blue hover:text-white transition-all duration-300 ease-in-out"
+      className="mt-16 px-6 py-3 border-4 lg:px-12 lg:py-6 border-white rounded-full text-sm md:text-lg font-bold text-conti-blue bg-white hover:bg-conti-blue hover:text-white transition-all duration-300 ease-in-out"
     >
       AGENDE UNA REUNION
     </button>
