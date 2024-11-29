@@ -30,6 +30,10 @@ h1 h2 {
   font-family: var(--font-open-sans);
 }
 
+#hero-section {
+  background-image: url('/logo/3414695-scaled.jpg');
+}
+
 #tools-section {
   background-image: url('/logo/circle-background-pattern.png');
 }
