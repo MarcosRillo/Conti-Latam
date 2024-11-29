@@ -12,10 +12,10 @@ export default function WhatWeDo({ openModal }) {
       className="bg-white flex flex-col justify-center items-center min-h-screen py-24"
     >
       <div className="container mx-auto w-10/12 md:w-9/12 lg:w-10/12 text-center">
-        <h2 className={`${montserrat.className} text-5xl font-bold text-gray-700 pb-10`}>
+        <h2 className={`${montserrat.className} text-5xl font-bold text-gray-800 pb-10`}>
           ¿QUE HACEMOS?
         </h2>
-        <strong className="text-md leading-8 md:text-xl font-bold text-gray-500 my-12">
+        <strong className="text-md leading-8 lg:leading-10 md:text-xl font-bold text-gray-500 my-12">
           Trabajamos formando equipo con las empresas, instituciones y
           organizadores profesionales que producen eventos, brindándoles
           herramientas tecnológicas para optimizar sus tareas.{" "}
