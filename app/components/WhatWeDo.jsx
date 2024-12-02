@@ -3,7 +3,7 @@ import {
   People as PeopleIcon,
   Web as WebIcon,
 } from "@mui/icons-material";
-import { montserrat } from "../ui/fonts";
+import { montserrat } from "@/app/ui/fonts";
 
 export default function WhatWeDo({ openModal }) {
   return (
@@ -21,7 +21,7 @@ export default function WhatWeDo({ openModal }) {
           herramientas tecnológicas para optimizar sus tareas.{" "}
         </strong>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mt-10">
-          <div className="bg-white p-8 py-8 w-auto flex flex-col items-center rounded-xl lg:hover:shadow-2xl lg:hover:shadow-gray-400 transition-all duration-500 ease-in-out">
+          <div className="bg-white p-8 py-8 w-auto flex flex-col items-center rounded-xl lg:hover:shadow-2xl lg:hover:shadow-gray-400 transition-all duration-350 ease-in-out">
             <DevicesOtherOutlinedIcon className="text-conti-blue" sx={{ fontSize: 70 }} />
             <h3 className="text-2xl font-bold text-gray-800 my-4">
               Eventos Virtuales

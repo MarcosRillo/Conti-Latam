@@ -32,10 +32,23 @@ h1 h2 {
 
 #hero-section {
   background-image: url('/logo/3414695-scaled.jpg');
+  height: 50vh;
 }
 
 #tools-section {
   background-image: url('/logo/circle-background-pattern.png');
+}
+
+@keyframes map {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes float-1 {
@@ -72,6 +85,10 @@ h1 h2 {
   100% {
     transform: translateY(0);
   }
+}
+
+.animate-map {
+  animation: map 7s ease-in-out infinite;
 }
 
 .animate-float-1 {

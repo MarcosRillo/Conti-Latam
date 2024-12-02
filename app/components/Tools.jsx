@@ -7,9 +7,9 @@ export default function ToolsSection({ openModal }) {
   return (
     <section
   id="tools-section"
-  className="relative w-full bg-conti-blue text-white pb-16 bg-fixed bg-cover bg-center"
+  className="relative w-full h-full top-0 bg-conti-blue text-white pb-16 bg-fixed bg-cover bg-center"
 >
-  <div className="relative z-10 flex flex-col items-center justify-center w-full lg:w-10/12 m-auto">
+  <div className="relative z-10 h-full top-0 flex flex-col items-center justify-center w-full lg:w-10/12 m-auto">
     <h2 className="text-4xl font-bold uppercase text-center py-24">
       NUESTRAS HERRAMIENTAS
     </h2>

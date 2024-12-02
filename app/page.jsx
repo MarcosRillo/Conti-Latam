@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/app/components/navbar/Navbar";
 import HeroSection from "@/app/components/HeroSection";
 import WhatWeDo from "@/app/components/WhatWeDo";
 import Modal from "@/app/components/Modal";
