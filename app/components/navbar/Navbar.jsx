@@ -18,6 +18,9 @@ export default function Navbar({ onHeightChange }) {
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
+  const [padding, setPadding] = useState("py-3 px-2 lg:py-5");
+  const [logoSize, setLogoSize] = useState(150);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   const handleClick = (event) => {
     setAnchorEl(navbarRef.current); // Establecer el navbar como el punto de anclaje
@@ -27,10 +30,34 @@ export default function Navbar({ onHeightChange }) {
     setAnchorEl(null);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+
+      if (prevScrollPos > currentScrollPos) {
+        // Scrolling up
+        setPadding("py-3 px-5 lg:py-5");
+        setLogoSize(150);
+      } else {
+        // Scrolling down
+        setPadding("py-1 px-2");
+        setLogoSize(120);
+      }
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
-    <nav ref={navbarRef} className={navbarStyles.nav}>
+    <nav ref={navbarRef} className={`${navbarStyles.nav} ${padding} transition-all duration-300`}>
       <div className={navbarStyles.logoContainer}>
-        <Logo />
+        <Logo size={logoSize} />
         <div className={navbarStyles.menuButton}>
           <button onClick={handleClick}>
             <MenuIcon className={navbarStyles.menuIcon} sx={{ fontSize: 27 }} />

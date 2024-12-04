@@ -31,12 +31,12 @@ h1 h2 {
 }
 
 #hero-section {
-  background-image: url('/logo/3414695-scaled.jpg');
+  background-image: url("/logo/3414695-scaled.jpg");
   height: 50vh;
 }
 
 #tools-section {
-  background-image: url('/logo/circle-background-pattern.png');
+  background-image: url("/logo/circle-background-pattern.png");
 }
 
 @keyframes map {

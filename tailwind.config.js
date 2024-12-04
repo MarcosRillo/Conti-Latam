@@ -10,8 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'conti-blue': '#1B53A0',
-        'text-conti': '#dddddd'
+        "conti-blue": "#1B53A0",
+        "text-conti": "#dddddd",
+      },
+      height: {
+        "150vh": "150vh",
       },
     },
   },
