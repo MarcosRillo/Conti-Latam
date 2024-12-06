@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function FooterLogo({openModal}) {
     return (
-        <div className="w-full md:w-1/3 mb-8 md:mb-0 text-center md:text-left">
+        <div className="w-full md:flex-1 md:w-1/3 mb-8 md:mb-0 text-center md:text-left">
           <Link href="/">
             <Image
               src="/logo/LogoCONTi_30_HOR6.png"

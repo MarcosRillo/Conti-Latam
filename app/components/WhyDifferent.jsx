@@ -1,6 +1,7 @@
 // WhyDifferentSection.jsx
 import Image from "next/image";
-import { montserrat } from "../ui/fonts";
+import { montserrat } from "@/app/ui/fonts";
+import Animated from "./Animated";
 
 export default function WhyDifferentSection() {
   return (
@@ -37,10 +38,10 @@ export default function WhyDifferentSection() {
         id="2"
         className={` ${montserrat.style} w-full md:w-1/2 md:pl-16`}
       >
-        <h2 className="text-4xl md:text-5xl font-semibold text-gray-800 mb-8">
+        <Animated className="text-4xl md:text-5xl font-semibold text-gray-800 mb-8">
           ¿PORQUE SOMOS DIFERENTES?
-        </h2>
-        <ul className="list-none list-inside text-lg space-y-4 text-gray-500 leading-10">
+        </Animated>
+        <Animated className="list-none list-inside text-lg space-y-4 text-gray-500 leading-10">
           <li>
             Porque nuestra trayectoria de 30 años nos convierte en la empresa
             con más experiencia de la región.
@@ -62,7 +63,7 @@ export default function WhyDifferentSection() {
             Porque nuestro personal es idóneo, responsable y se brinda 100%
             empatizando y formando equipo con los clientes.
           </li>
-        </ul>
+        </Animated>
       </div>
     </section>
   );

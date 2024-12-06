@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import Animated from "./Animated";
 
 const clients = [
   "/images/confia/sap.png",
@@ -61,9 +62,9 @@ export default function ClientsCarousel() {
 
   return (
     <section id="clients-carousel" className="p-8 md:p-16 bg-white">
-      <h2 className="text-4xl md:text-5xl font-bold text-conti-blue text-center mb-8">
+      <Animated className="text-4xl md:text-5xl font-bold text-conti-blue text-center mb-8">
         CONFIAN EN NOSOTROS
-      </h2>
+      </Animated>
       <Slider {...settings}>
         {clients.map((client, index) => (
           <div key={index} className="p-4">
@@ -72,7 +73,7 @@ export default function ClientsCarousel() {
               alt={`Client ${index + 1}`}
               width={225}
               height={150}
-              className="mx-auto"
+              className="mx-auto border-0"
             />
           </div>
         ))}

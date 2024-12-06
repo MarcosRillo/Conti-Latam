@@ -5,7 +5,7 @@ import FooterContact from "./FooterContact";
 export default function Footer({ openModal }) {
   return (
     <footer className="bg-conti-blue text-white border-white border-t-4">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between p-8 md:p-16">
+      <div className="container mx-auto flex flex-col md:flex-row justify-center p-8 md:p-16">
         <FooterLogo openModal={openModal} />
         <FooterNavigation />
         <FooterContact />
