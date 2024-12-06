@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="md:w-1/2 p-8 flex flex-col lg:ml-10 justify-start items-start lg:items-start">
           <div className="justify-center text-start items-center">
             <h1 className="text-7xl font-bold text-white mb-4">
-              <CountUp start={0} end={30} duration={3} /> años
+              <CountUp start={0} end={30} duration={2} /> años
             </h1>
             <p className="font-normal text-xl leading-9 text-white">
               Liderando la innovación tecnológica en Latinoamérica.

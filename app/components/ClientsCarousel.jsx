@@ -62,7 +62,7 @@ export default function ClientsCarousel() {
 
   return (
     <section id="clients-carousel" className="p-8 md:p-16 bg-white">
-      <Animated className="text-4xl md:text-5xl font-bold text-conti-blue text-center mb-8">
+      <Animated className="text-4xl md:text-5xl font-bold text-conti-blue text-center mb-8 mt-20 lg:mt-40">
         CONFIAN EN NOSOTROS
       </Animated>
       <Slider {...settings}>
