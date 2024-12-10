@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 export const navbarStyles = {
-  nav: "w-full flex flex-col lg:flex-row justify-around bg-white py-3 px-2 lg:py-5 fixed top-0 left-0 right-0 z-50",
+  nav: "w-full flex flex-col lg:flex-row justify-around bg-white py-3 px-2 lg:py-5 fixed top-0 left-0 right-0 z-50 shadow-md",
   logoContainer: "flex lg:flex-1 items-center w-full px-10 w-auto",
   logo: "flex items-center text-black w-full lg:justify-center",
   menuButton: "block lg:hidden",
